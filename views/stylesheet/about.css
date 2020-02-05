@@ -1,0 +1,63 @@
+.about-image {
+  width: 300px;
+  height: 200px;
+}
+.main-image {
+
+  text-align: center;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  
+}
+
+.logo-image {
+  width: 300px;
+  height: 150px;
+}
+
+.about-text-box {
+  margin: 20px;
+
+}
+.about-text {
+  text-align: center;
+  font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+  font-size: 10px;
+}
+.text {
+  margin-bottom: 10px;
+}
+.sign-icon {
+  margin-left: 220px;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+.ise-icon {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+.yuki-icon {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+@media (min-width: 560px) {
+
+}
+
+@media (min-width: 960px) {
+  .about-page {
+    height: 1000px;
+    width: 100%;
+  }
+  .about-image {
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    width: 400px;
+  height: 300px;
+  }
+  .about-text-box {
+    margin: 40px;
+    margin: 50px 10px;
+  }
+  .about-text {
+    text-align: center;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,323 @@
+
+
+body{
+  background-color: #40e0d0;
+  margin: 0 auto;
+  height: 100%;
+}
+.main-heder {
+  position: relative;
+  padding: 20px;
+  
+}
+
+.main-contents-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list {
+  margin: 10px;
+  font-size: 20px;
+  /* margin-right: 10px; */
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.icon-color{
+  color: aliceblue;
+}
+
+.main-content {
+  text-align: center;
+  width: 100%;
+  
+}
+
+.icon {
+  font-size: 10px;
+  margin: 10px;
+}
+.icon-list {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+.image {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.menu-btn {
+  font-size: 3rem;
+  position: absolute;
+  left: 90%;
+  height: 10%;
+  color: white;
+}
+.fa-minus {
+
+}
+.fa-bars {
+  font-size: 3em;
+  /* position: absolute;
+  top: 20%;
+  right: 30px; */
+}
+.fa-fighter-jet {
+  /* font-size: 20px;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  position: absolute;
+  z-index: 10; */
+  font-size: 3em;
+  position: absolute;
+
+  z-index: 10;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+
+
+
+@media (min-width: 560px) {
+  body{
+    /* background-color: #40e0d0; */
+  background-color: #40e0d0;
+  }
+  .fa-space-shuttle{
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    position: absolute;
+    z-index: 10;
+  }
+  .image {
+    width: 160px;
+    height: 110px;
+    border: solid 5px white;
+  }
+  .image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 960px) {
+
+  body {
+  display: flex;
+  /* background-color: gray; */
+  margin: 0 auto;
+
+  background-color: #40e0d0;
+  /* background-image: url(images/yu-ki-background.jpg); */
+  background-attachment: fixed;
+  position: relative;
+
+  }
+  /* --------------- */
+  .left-box {
+    position: absolute;
+    top: 200px;
+    width: 10px;
+    /* left: -20%; */
+    background-color: white;
+    height: 1000px;
+    /* display: none; */
+    z-index: 30;
+    background-color: rgba(0,0,255,0);
+
+  }
+  .left-contents {
+    padding: 50px;
+  }
+
+
+  /* --------------- */
+  .main-box {
+    width: 100%;
+    background-color: #40e0d0;
+    height: 1000px; 
+    /* filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6)); */
+    z-index: 20;
+    margin: 0 auto;
+    
+
+  }
+  .main-heder {
+    padding: 50px;
+    /* border-bottom: solid 4px white; */
+  }
+  h1 {
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    font-size: 80px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+  }
+  h3 {
+    font-size: 80px;
+    text-align: center;
+    font-size: x-large;
+    color:black;
+  }
+
+  .main-content {
+    
+    background-color: #40e0d0;
+    padding: 50px;
+    width: 860px;
+    margin: 0 auto;
+  }
+
+  .image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .image {
+    border: solid 5px white;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    width: 200px;
+    height: 150px;
+  }
+
+  .low-content {
+    height: 60%;
+    margin-top: 40px;
+
+    background-color: #40e0d0;
+    /* background-color: yellow; */
+    padding: 50px;
+  }
+  .icon-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+  }
+  .icon {
+  margin: auto;
+    
+  }
+  .icon-color {
+    color: aliceblue;
+  }
+  .left-contents {
+    height: 90%;
+    background-color:white;
+
+  }
+  /* -----ヘッダーーーーーーーー */
+  .main-contents-list {
+    
+    font-size: 20px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    list-style: none;
+    margin-top: 30px;
+
+  }
+  .menu-list {
+    margin-bottom: 20px;
+    
+    margin-right: 20px;
+
+    
+  }
+  .fa-space-shuttle{
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    position: absolute;
+    z-index: 10;
+
+  }
+  .about-page {
+    height: 1000px;
+    width: 100%;
+  }
+  .about-image {
+    text-align: center;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  }
+  .about-text-box {
+    margin: 40px;
+    margin: 50px 10px;
+  }
+  .about-text {
+    text-align: center;
+    font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    font-size: 15px;
+  }
+  .about-footer {
+    margin: 40px;
+    height: 20%;
+    text-align: center;
+    /* line-height: 35; */
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+
+  .sign-icon {
+    margin-left: 410px;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+
+  }
+  .shuttle-menu {
+    margin-left: 120px;
+  }
+  .ise-icon {
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  }
+  .yuki-icon {
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  }
+
+  .index-10 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 10;
+    background-color: chocolate;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0,0,255,0);
+  }
+  .fa-fighter-jet {
+    font-size: 50px;
+    position: absolute;
+
+    z-index: 10;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    
+  }
+}
+/* ------works------- ------works------- ------works------- ------works------- */
