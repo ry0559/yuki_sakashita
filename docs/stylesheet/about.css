@@ -39,8 +39,8 @@
   .about-image {
     text-align: center;
     filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
-    width: 400px;
-  height: 300px;
+    width: 460px;
+    height: 300px;
   }
   .about-text-box {
     margin: 40px;
