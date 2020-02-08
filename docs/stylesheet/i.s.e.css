@@ -10,8 +10,8 @@
 }
 .ise-text {
   font-size: 10px;
-    padding: 25px 20px 0px;
-    text-align: left;
+  padding: 25px 20px 0px;
+  text-align: left;
 }
 .ise-sign-icon {
   display: block;
@@ -21,7 +21,7 @@
 .sign-text {
   display: flex;
   justify-content: flex-end;
-    margin: 0px 40px 30px;
+  margin: 0px 40px 30px;
 }
 .secret-base {
   padding-top: 15px;
@@ -50,6 +50,7 @@
   .ise-text {
     text-align: left;
     font-size: small;
+    padding: 25px 0px 0px;
   }
   .ise-sign-icon {
     display: block;
