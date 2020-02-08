@@ -17,9 +17,9 @@ $(function(){
       }
     });
   });
-  $(".fab").click(function(){ 
-    $(this).css('color','red');
-  });
+  // $(".fab").click(function(){ 
+  //   $(this).css('color','red');
+  // });
   // $("#menu-slide-btn").click(function(){
   //   // $("#menu-slide").css('display','block');
   //   $("#menu-slide-btn").css('display','none');
