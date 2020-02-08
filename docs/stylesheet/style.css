@@ -52,7 +52,7 @@ body{
   display: flex;
 }
 .top-image {
-  margin: 30px 0px 30px;
+  /* margin: 30px 0px 30px; */
 }
 .image-list {
   list-style: none;
